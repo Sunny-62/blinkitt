@@ -1,0 +1,247 @@
+nav{
+    position: sticky;
+    top:0px;
+    color: white;
+}
+.vertical-line{
+    border-left: 1px solid dimgrey;
+    height: 70px;
+    
+    
+}
+.delivery>h5{
+    margin-top: 10px;
+    font-weight: 900;
+     
+}
+.delivery>p{
+   font-size: 14px; 
+}
+#search{
+   background-color:rgb(248,248,248); 
+   border: 1px solid rgb(232,232,232);
+   border-radius: 12px;
+   padding-inline: 12px;
+}
+#search>input{
+border: none;
+width: 25vw;
+height: 30px;
+background-color: transparent;
+}
+.my-cart{
+    
+    font-weight: 600 !important;
+    border-radius: 10px !important;
+}
+#hero-section{
+    display: flex;
+    justify-content: center;
+}
+.catogery-1{
+    display: flex;
+    flex-wrap: wrap;
+    padding-inline: 6.5vw;
+    justify-content: space-around;
+}
+.scrolldiv{
+   width: 88vw; 
+   margin:auto;
+}
+   ::-webkit-scrollbar{
+    display: none;
+   }
+
+
+.list{
+    white-space: nowrap;
+    overflow-x: scroll;
+}
+.list>img{
+    display: inline-block;
+}
+.see{
+    color: green;
+}
+.category,footer{
+    
+    width: 88vw; 
+   margin:auto;
+}
+.my-card{
+    display:inline-block !important;
+    width: 220px;
+    box-sizing: border-box;
+    border-radius: 15px !important;
+    white-space: wrap;
+}
+.my-card>img{
+    display:inline-block;
+    margin: auto;
+}
+.time{
+    background-color: #f2f2f2;
+font-weight: 700;
+font size: 9px;
+color:rgb(54, 54, 54);
+width:fit-content;
+padding:3px;
+
+}
+.weight{
+    font-size: 13px;
+    color: #666666;
+}
+row-3>p{
+    margin:0px;
+}
+.my-tag{
+    position:absolute;
+    top: 0px;
+    left: 10px;
+    width: 100px;
+    height: 30px;
+    padding: 5px;
+    
+    font-weight: 900;
+    font-size: 13px;
+    background-color: #528cee;
+    text-align: center;
+    color: white;
+}
+#my-footer-row-3{
+    text-align: justify;
+    color: #666666;
+    padding: 10px;
+}
+#my-footer-row-2{
+    text-align:justify;
+    color: #666666;
+    display: flex;
+    margin-top: 20px;
+margin-bottom: 15px;
+
+
+}
+#f-r-2-col1{
+    flex:1;
+    padding-inline: 10px;
+    width: 10vwpx;
+    font-weight: 400;
+    }
+
+#f-r-2-col2{
+    display: flex;
+flex:1;
+align-item:center;
+justify-content:space-around;
+}
+#f-r-2-col2>h6{
+    padding-top: 10px;
+color: #666666;
+
+}
+.some-box{
+    width: 80px;
+    height: 30px;
+    border-radius: 10px;
+    background-color: #213a50;
+    text-align: center;
+    color: white;
+    font-size: 10px;
+    
+}
+#f-r-2-col3{
+    display: flex;
+flex:1
+justify-content:space-evenly;
+
+}
+.social-icon{
+    display: flex;
+    color:white;
+    justify-content: center;
+    background-color: #213a50;
+height:50px;
+width: 50px;
+margin-top: 15px;
+margin-left: 10px;
+align-items: center;
+border-radius: 50%;
+font-size: 40px;
+}
+.social-icon:hover{
+   color:black;
+   background-color: rgb(248,203,70);
+   box-shadow: 3px 3px 5px black; 
+}
+#my-footer-row-1{
+    display: flex;
+    margin-top: 30px;
+    justify-content:space-between;
+}
+#footer_table_1{
+    flex:1
+    width:100%
+}
+#footer_table_2{
+    flex:2
+    box-sizing:border-box;
+    padding:20px
+    
+}
+table{
+    width: 100%;
+}
+td{
+    color:#666666
+    line-height:30px
+
+}
+td:hover{
+    text-decoration: underline;
+    color:red
+    line: height 30px;
+    cursor:pointer;
+}
+@media screen and (max-width:400px){
+   #hero-section{
+    display: none !important;
+   } 
+   nav,#my-footer-row-1{
+    flex-direction: column !important;
+    align-items: center !important;
+    margin: auto;
+   }
+   #my-footer-row-1,#footer_table_1,#footer_table_2{
+    flex-direction: column !important;
+    align-items: center !important;
+    margin-top: 20px;
+
+}
+td{
+    padding-inline: 10px;
+    text-align: center !important;
+    font-size: 12px;
+}
+.some-box{
+    margin-top: 10px;
+}
+#f-r-2-col1,#f-r-2-col2,#f-r-2-col3{
+flex-direction: column;
+width: 90vw;
+justify-content: space-between;
+margin: auto;
+}
+.my-nav-search{
+    width:90vw;
+}
+.vertical-line{
+    display: none;
+}
+nav{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    position: static;
+}
+}
